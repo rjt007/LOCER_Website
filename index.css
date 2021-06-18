@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: aqua;
+}
+.head{
+    width:100vw;
+    height: 12vh;
+    padding-top: 2vh;
+    position:fixed;
+    background-color: #b3b3b3;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.searchbar{
+    position: absolute;
+    left:33vw;
+    top:3.5vh;
+}
+#input{
+    font-size:large;
+    border-radius: 10px;
+    width: 35vw;
+    height: 4vh;
+    outline: none;
+    border: none;
+    padding-left:2vw;
+}
+.label_container{
+    width:fit-content;
+    padding-bottom: 0.5vh;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.icons{
+    height: 6vh;
+    width:auto;
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+}
+.upper_nav{
+    display: flex;
+    justify-content: space-between;
+}
+#locerlogo{
+    position: absolute;
+    top:0vh;
+    height: 5vh;
+}
