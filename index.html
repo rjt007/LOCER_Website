@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOCER</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
 </head>
+
 <body>
     <header class="head">
         <div class="upper_nav">
-            <div id="burger"><img src="/logo/list.png" alt="burgericon" id="burger_icon" class="icons"/></div>
+
+            <!-- Burger Menu / Side-Menu -->
+            <span id="burger" class="open-slide">
+              <a href="#" id="open-slide-menu">
+                <img src="/logo/list.png" alt="burgericon" id="burger_icon" class="icons" />
+              </a>
+            </span>
+
             <div id="logo"><img src="/logo/swiggy_logo.png" alt="locerlogo" id="locerlogo" class="icons"></div>
-            <div id="userlogo"><img src="/logo/userlogo.png" alt="userlogo" id="user_logo"class="icons"/></div>
+            
+            <div id="userlogo"><img src="/logo/userlogo.png" alt="userlogo" id="user_logo" class="icons" /></div>
+
         </div>
+
         <div class="searchbar">
-        <form action="locer.php">
-            <div class="label_container">
-            <label for="input">Search</label><br/>
+            <form action="locer.php">
+                <div class="label_container">
+                    <label for="input">Search</label><br />
+                </div>
+                <input type="text" placeholder="search for anything" name="search" value="" id="input">
+            </form>
         </div>
-        <input type="text" placeholder="search for anything" name="search" value="" id="input">
-        </form>
-        </div>
+
     </header>
+
+    <!-- Contents of the side-menu -->
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <h1>Responsive Side Menu</h1>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
