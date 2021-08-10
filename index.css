@@ -9,7 +9,7 @@ body{
     background-color:beige;
 }
 .head{
-    width:100vw;
+    width:100%;
     height: 12vh;
     padding-top: 2vh;
     position:fixed;
@@ -220,6 +220,6 @@ animation: header 1s cubic-bezier(0.215, 0.610, 0.355, 1);
     }  
     .footer{
         margin-top:20vh;
-        width: 100vw;
+        width: 100%;
     } 
 }
